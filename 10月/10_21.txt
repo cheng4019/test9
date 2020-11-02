@@ -1,0 +1,21 @@
+@Autowired 对类成员变量、方法、构造函数标注，完成自动装配的任务，消除set，get方法。
+@ComponentScan:springBOOt扫描Configuration类，把它加入程序上下文
+@Configuration: 等价于spring的XML配置文件；被注解的类内部包含一个或多个@Bean注解的方法，AnnotationConfigApplicationContext AnnotationConfigWebApplicationContext类进行扫描，用于构建bean定义，初始化Spring容器。
+@EnableAutoConfiguration:自动配置。
+@PropertySource("classpath:bc.properties") 加载指定配置文件
+容器：Spring是一个容器，因为它包含且管理应用对象的生命周期
+       Spring容器帮助管理所有Bean对象，专业术语为IOC控制反转.
+       在控制反转中，对象的生成交给框架完成。
+
+
+
+
+
+
+
+
+
+
+
+今日之事：算法笔记，java背诵，
+     晚上：论文总结，ubantu布置git，python环境，anaconda环境

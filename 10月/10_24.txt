@@ -1,0 +1,10 @@
+1 Map.Entry是Map的嵌套接口nested interface Entry<K,V>接口为泛型，表示Map中的一个  实体（key-value对）接口中有getKey(),gejtValue（）方法
+ Set<Map.Entry<k,v>> entrySet();从Map集合中得到内部接口	Entry的集合
+  for(Map.Entry<String,String> entry:map.entrySet())
+  	System.out.println(entry.getKey()+entry.getValue()
+
+  拉链法 、链地址法 数组加链表
+     其中链表的插入是以头插法进行的，不是插在后面
+     查找分为：计算键值对所在的桶，在链表上顺序查找
+     ：
+ 	
